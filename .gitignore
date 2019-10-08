@@ -1,0 +1,11 @@
+.idea/
+.vscode/
+*.iml
+.xml
+device incoming info/
+*.php
+all.news.html
+*.pdf
+
+
+

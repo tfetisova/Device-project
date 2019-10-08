@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('subset-Gilroy-ExtraBold.eot');
+    src: local('Gilroy-ExtraBold'),
+        url('subset-Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('subset-Gilroy-ExtraBold.woff2') format('woff2'),
+        url('subset-Gilroy-ExtraBold.woff') format('woff'),
+        url('subset-Gilroy-ExtraBold.ttf') format('truetype'),
+        url('subset-Gilroy-ExtraBold.svg#Gilroy-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('subset-Gilroy-Light.eot');
+    src: local('Gilroy-Light'),
+        url('subset-Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+        url('subset-Gilroy-Light.woff2') format('woff2'),
+        url('subset-Gilroy-Light.woff') format('woff'),
+        url('subset-Gilroy-Light.ttf') format('truetype'),
+        url('subset-Gilroy-Light.svg#Gilroy-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+

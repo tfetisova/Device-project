@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Catalogue</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="content-wrap">
+        <div class="container">
+            <header class="page-header catalogue-header">
+                <a href="index.html"><img src="images/logo.png" alt="" class="logo hover-active-for-links"></a>
+                <nav>
+                    <ul class="header-menu level1">
+                        <li class="search">
+                        <img class="search-icon" src="images/search.png" alt="">
+                        <input class="search-text-area" type="text" placeholder="Поиск по сайту">
+                        <input class="button-find" type="submit" value="Найти">
+                        </li>
+                        <li class="login"><a href="" class="link-1level hover-active-for-links"><img src="images/login.png" alt=""><span>Валентин Петухов</span></a></li>
+                        <li class="logout"><a href="" class="link-1level hover-active-for-links"><span>Выйти</span></a></li>
+                        <ul class="burger-menu">
+                        <li class="compare"><a href="" class="link-1level hover-active-for-links"><img src="images/compare.png" alt=""><span>Сравнить</span></a></li>
+                        <li class="cart"><a href="" class="link-1level hover-active-for-links"><img src="images/cart.png" alt=""><span>Корзина</span></a></li>
+                        </ul>
+                    </ul>
+                    <ul class="header-menu level2">
+                        <li class="goods"><a href="catalogue.html" class="link-2ndlevel catalogue hover-active-for-links">Каталог товаров</a>
+                             
+                          <ul class="submenu">
+                            <li><a href="" class="hover-active-for-links">Виртуальная реальность</a></li>
+                            <li><a href="" class="hover-active-for-links">Моноподы для селфи</a></li>
+                            <li><a href="" class="hover-active-for-links">Экшн-камеры</a></li>
+                            <li><a href="" class="hover-active-for-links">Фитнес-браслеты</a></li>
+                            <li><a href="" class="hover-active-for-links">Умные часы</a></li>
+                            <li><a href="" class="hover-active-for-links">Квадрокоптеры</a></li>
+                            
+                        </ul>
+                        </li>
+                       <ul class="burger-menu">
+                        <li class="delivery-garanty"><a href="" class="link-2ndlevel hover-active-for-links">Доставка</a></li>
+                        <li class="delivery-garanty"><a href="" class="link-2ndlevel hover-active-for-links">Гарантия</a></li>
+                        <li class="contacts"><a href="" class="link-2ndlevel hover-active-for-links">Контакты</a></li>
+                        </ul>
+                    </ul>
+                </nav>
+               </header>
+        </div>
+            <main>
+                <div class="container">
+                <section class="catalogue-page-name">
+                <h2>Моноподы для селфи</h2>
+                <ul class="breadcrumbs">
+                    <li ><a href="index.html" class="hover-opacity60 active-opacity10">Главная</a></li>
+                    <li>&#8250;</li>
+                    <li ><a href="catalogue.html" class="hover-opacity60 active-opacity10">Каталог товаров</a></li>
+                    <li>&#8250;</li>
+                    <li><a href="" class="hover-opacity60 active-opacity10">Моноподы для селфи</a></li>
+                </ul>                
+                </section>
+                </div>
+                <section class="products-page">
+                   <div class="container">
+                    <aside class="filters">
+                         <div class="aside-container">
+                          <h3>Фильтр:</h3> 
+                          <div class="pricing">
+                              <h4>Стоимость</h4>
+                              <div class="scale">
+                                <div class="green-selected-scale"></div>
+                                <div class="min-price toggle"></div>
+                                <div class="max-price toggle"></div>
+                              </div>
+                                  
+                           </div>
+                           <div class="color-filter">
+                               <h4>Цвет</h4>
+                               <ul class="colors">
+                                   <li><input type="checkbox" id="black" checked ><label for="black" class="hover-opacity60">Черный</label></li>
+                                   <li><input type="checkbox" id="white" ><label for="white" class="hover-opacity60">Белый</label></li>
+                                   <li><input type="checkbox" id="blue" checked ><label for="blue" class="hover-opacity60">Синий</label></li>
+                                   <li><input type="checkbox" id="red" checked ><label for="red" class="hover-opacity60">Красный</label></li>
+                                   <li><input type="checkbox" id="pink" ><label for="pink" class="hover-opacity60">Розовый</label></li>
+                               </ul>
+                           </div>
+                           <div class="bluetooth">
+                               <h4>Bluetooth</h4>
+                               <ul class="bluetooth-radio-input">
+                                   <li><input type="radio" id="answer_yes" name="bluetooth-radio-input" checked><label for="answer_yes" class="hover-opacity60"></label>Есть</li>
+                                   <li><input type="radio" id="answer_no" name="bluetooth-radio-input"><label for="answer_no" class="hover-opacity60"></label>Нет</li>
+                               </ul>
+                           </div>
+                           <div class="submit-button"><input type="submit" class="more" value="Отправить">
+                            </div>
+                           
+                    </div>
+                  </aside>
+                    <div class="product-list">
+                       <div class="sorting"><h3>Сортировка</h3>
+                       <ul class="sorting-items">
+                           <li class="selected sort-item hover-opacity60"><a href="" class="active-opacity-100">По цене</a></li>
+                           <li class="sort-item hover-opacity60 active-opacity-100"><a href="" class="active-opacity-100">По типу</a></li>
+                           <li class="sort-item hover-opacity60 active-opacity-100"><a href="" class="active-opacity-100">По популярности</a></li>
+                       </ul>
+                       <ul class="sort-arrows">
+                           <li><a href="#"><img src="images/icon-up-dir.png" alt="" width="11" height="10"></a></li>
+                           <li><a href="#"><img src="images/icon-down-dir.png" alt="" width="11" height="10"></a></li>
+                       </ul>    
+                       </div>
+                      <div class="product-list-items">
+                          <div class="product-item">
+                            <div class="front-side">
+                             <img src="images/item-1.png" alt="" height="380" width="360">
+                             <div class="item-name">
+                                 <h4>Любительская селфи-палка</h4>
+                                 <p class="item-price">500 руб.</p>
+                             </div>
+                             </div>
+                             <div class="product-item-hover">
+                               <a href="#" class="more">В корзину</a>
+                               <a href="#" class="add_to_compar">Добавить к сравнению</a> 
+                            </div>
+                            
+                              
+                          </div>
+                          <div class="product-item">
+                            <div class="front-side">
+                             <img src="images/item-2.png" alt=""  height="380" width="360
+                             ">
+                             <div class="item-name">
+                                 <h4>Любительская селфи-палка</h4>
+                                 <p class="item-price">500 руб.</p>
+                             </div>                              
+                          </div>
+                          <div class="product-item-hover">
+                               <a href="#" class="more">В корзину</a>
+                               <a href="#" class="add_to_compar">Добавить к сравнению</a> 
+                            </div>
+                            </div>
+                          <div class="product-item">
+                            <div class="front-side">
+                             <img src="images/item-3.png" alt=""  height="380" width="360
+                             ">
+                             <div class="item-name">
+                                 <h4>Любительская селфи-палка</h4>
+                                 <p class="item-price">500 руб.</p>
+                             </div>
+                              
+                          </div>
+                          <div class="product-item-hover">
+                               <a href="#" class="more">В корзину</a>
+                               <a href="#" class="add_to_compar">Добавить к сравнению</a> 
+                            </div>
+                            </div>
+                          <div class="product-item">
+                            <div class="front-side">
+                             <img src="images/item-4.png" alt=""  height="380" width="360
+                             ">
+                             <div class="item-name">
+                                 <h4>Любительская селфи-палка</h4>
+                                 <p class="item-price">500 руб.</p>
+                             </div>
+                          </div>
+                          <div class="product-item-hover">
+                               <a href="#" class="more">В корзину</a>
+                               <a href="#" class="add_to_compar">Добавить к сравнению</a> 
+                            </div>
+                            </div>
+                      </div>                   
+                       <div class="pagination">
+                           <a href="" class="back-forward-page">Назад</a>
+                           <ul>
+                               <li><a href="" class="page-selected">1</a></li>
+                               <li><a href="" class="page-inactive">2</a></li>
+                               <li><a href="" class="page-inactive">3</a></li>
+                           </ul>
+                           <a href="" class="back-forward-page">Вперед</a>
+                       </div>                   
+                    </div>
+                    </div>
+                </section>
+
+            </main> 
+            <footer>
+                <div class="container">
+                   <nav class="footer-menu-container">
+                   <div class="footer-1level">
+                   <a href="index.html" class="logo-footer"><img src="images/logo-yellow.png" alt="" class="hover-active-for-links"></a>
+                    <ul class="footer-menu level_1">
+                       
+                         <li class="login"><a href="" class="link-1level hover-active-for-links"><img src="images/login-yellow.png" alt=""><span>Валентин Петухов</span></a></li>
+                        <li class="logout"><a href="" class="link-1level hover-active-for-links"><span>Выйти</span></a></li>
+                           
+                        <li><a href="" class="link-1level hover-active-for-links"><img src="images/compare-yellow.png" alt=""><span>Сравнить</span></a></li>
+                        <li><a href="" class="link-1level hover-active-for-links"><img src="images/cart-yellow.png" alt=""><span>Корзина</span></a></li>
+                    </ul>
+                     </div>
+                    <div class="footer-2level">
+                    <p>г.Москва, ул.Строителей, 15</p>
+                    <ul class="footer-menu level_2">
+                       <li><a href="" class="link-2ndlevel hover-active-for-links">Доставка</a></li>
+                        <li><a href="" class="link-2ndlevel hover-active-for-links">Гарантия</a></li>
+                        <li><a href="" class="link-2ndlevel hover-active-for-links">Контакты</a></li>
+                    </ul>
+                    <p>Тел.: +7(495)495-95-95</p>
+                    </div>
+                    </nav>
+                    <div class="footer-last-line">
+                    <div class="empty-div"></div>
+                    <div class="social-media">
+                    <a href="" class="social-media-link"><img src="images/fb.png" alt=""></a>
+                    <a href="" class="social-media-link"><img src="images/insta.png" alt=""></a>
+                    <a href="" class="social-media-link"><img src="images/twitter.png" alt=""></a>
+                    </div>
+                    <a href="" class="html-academy-link hover-active-for-links"><img src="images/logo-academy.png" width="27" height="38" alt=""></a>
+                    </div>
+                </div>
+            </footer>
+          
+        </div>
+    
+    
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>     
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>   
+
+ <script src="js/script.js"></script>   
+</body>
+</html>
